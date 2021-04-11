@@ -40,7 +40,7 @@ Product_R1
 * Hard Drive analysis (Autopsy) - Recover f0009604.jpg from free space which is the last image.
 * Exif information reveals time and location
 
-During Hard Drive Analysis Product+Prices file can be found. File seems like a spreads heed and extension .xlsx needs to be added for it to be opened. File requires password to be viewed.
+During Hard Drive Analysis Product+Prices file can be found. File seems like a spreadsheet and extension .xlsx needs to be added for it to be opened. File requires password to be viewed due to visible encryption.
 
 SAM hive can be explored with Registry Explorer and user Hive has available bookmarks with information of Full Names of the bad guys and Password for "private documents"
 
