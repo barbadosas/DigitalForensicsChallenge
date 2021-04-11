@@ -14,6 +14,39 @@ A link to Google Drive is also available below:
 
 [Resources](https://drive.google.com/folderview?id=0B5wo_1rRmpqVZ3Myc2xtNFBkT0k&usp=sharing)
 
-### Our Survey
+Challange - https://pivotproject.org/challenges/digital-forensics-challenge
 
-Please be sure to fill out our [**SURVEY**](https://www.surveymonkey.com/r/8WPXRBC) afterwards!
+### Solution
+
+Product_E1
+
+1. Picture can be found in the packet capture by exporting HTTP objects with Wireshark
+1.1. JPG Exif information reveals time and location
+
+Product_P1
+
+1. Txt file can be found in the packet capture by exporting HTTP objects with Wireshark
+1.1 File needs to be renamed to .jpg extension
+1.2 Exif information reveals time and location
+
+Product_D1
+
+1. Hard Drive analysis (Autopsy) - Recover Product_D1.jpg from free space.
+1.1. JPG Exif information reveals time and location
+
+
+Product_R1 
+
+1. Hard Drive analysis (Autopsy) - Recover f0009604.jpg from free space which is the last image.
+1.1 Exif information reveals time and location
+
+During Hard Drive Analysis Product+Prices file can be found. File seems like a spreads heed and extension .xlsx needs to be added for it to be opened. File requires password to be viewed.
+
+SAM hive can be explored with Registry Explorer and user Hive has available bookmarks with information of Full Names of the bad guys and Password for "private documents"
+
+Password for "Private Documents" used to open Product+Prices.xlsx spreadsheet which contains information of Nickname, Price and answer the question which is the most expensive product and why.
+
+Packet trace file also contains source url of downloaded product images which points to domain of gang's website, pinging the domain answers both questions. Website also contains information of bad guys role in the gang.
+
+Lastly alleged buyers information can be found in the browser files - formhistory.sqlite, table moz_formhistory.
+
