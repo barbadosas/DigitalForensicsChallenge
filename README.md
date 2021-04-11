@@ -20,25 +20,25 @@ Challange - https://pivotproject.org/challenges/digital-forensics-challenge
 
 Product_E1
 
-1. Picture can be found in the packet capture by exporting HTTP objects with Wireshark
-1.1. JPG Exif information reveals time and location
+* Picture can be found in the packet capture by exporting HTTP objects with Wireshark
+* JPG Exif information reveals time and location
 
 Product_P1
 
-1. Txt file can be found in the packet capture by exporting HTTP objects with Wireshark
-1.1 File needs to be renamed to .jpg extension
-1.2 Exif information reveals time and location
+* Txt file can be found in the packet capture by exporting HTTP objects with Wireshark
+* File needs to be renamed to .jpg extension
+* Exif information reveals time and location
 
 Product_D1
 
-1. Hard Drive analysis (Autopsy) - Recover Product_D1.jpg from free space.
-1.1. JPG Exif information reveals time and location
+* Hard Drive analysis (Autopsy) - Recover Product_D1.jpg from free space.
+* JPG Exif information reveals time and location
 
 
 Product_R1 
 
-1. Hard Drive analysis (Autopsy) - Recover f0009604.jpg from free space which is the last image.
-1.1 Exif information reveals time and location
+* Hard Drive analysis (Autopsy) - Recover f0009604.jpg from free space which is the last image.
+* Exif information reveals time and location
 
 During Hard Drive Analysis Product+Prices file can be found. File seems like a spreads heed and extension .xlsx needs to be added for it to be opened. File requires password to be viewed.
 
